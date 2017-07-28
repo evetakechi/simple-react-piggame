@@ -1,0 +1,6 @@
+export { default as Dice1 } from './dice-1.png'
+export { default as Dice2 } from './dice-2.png'
+export { default as Dice3 } from './dice-3.png'
+export { default as Dice4 } from './dice-4.png'
+export { default as Dice5 } from './dice-5.png'
+export { default as Dice6 } from './dice-6.png'

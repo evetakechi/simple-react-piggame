@@ -1,0 +1,142 @@
+.player-0-panel,
+.player-1-panel {
+    width: 100%;
+    float: left;
+    height: 500px;
+    border-radius: 1em; 
+}
+.col-xs-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.player-name {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+.player-score {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
+    color: #ee9ca7;
+     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.active { background-image: linear-gradient(-200deg, #FFFEFF 0%, #D7FFFE 100%);}
+    /* background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 20%);} */
+    /* background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);} */
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+    content: "\2022";
+    font-size: 50px;
+    position: absolute;
+    color: #ee9ca7;
+    top: -8px;
+    right: 25px;
+
+    /* background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%); */
+
+}
+
+.player-current-box {
+    border: 2px solid #a8edea;
+    border-radius: 1em;
+
+    color: #50A7C2;
+    width: 40%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+.player-current-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #6a85b6;
+}
+
+.player-current-score {
+    font-size: 40px;
+}
+
+.bottom {
+    vertical-align: middle
+}
+
+.final-score {
+    color: #6a85b6;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(106, 133, 182, 0.3)
+}
+::-moz-placeholder {
+    color: rgba(106, 133, 182, 0.3)
+}
+::-ms-input-placeholder {
+    color: rgba(106, 133, 182, 0.3)
+}
+
+.final-score:focus { outline: none; }
+
+.btn-area {
+    padding: 10px;
+}
+
+
+
+.btn-outline-new {
+    color: #6a85b6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #6a85b6;
+}
+
+.btn-outline-new:hover{
+    color: #fff;
+    background-image: none;
+      background-color: #6a85b6;  
+}
+
+
+.dice {
+   padding: 15px;
+    height: 100px;
+   
+    /* box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10); */
+}
+
+.bottom{
+    padding-top:209px;
+}
+
+.winner {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    color: #ee9ca7;
+
+}
+
