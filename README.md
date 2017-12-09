@@ -9,3 +9,4 @@ GAME RULES:
 - The first player to reach 100 points on GLOBAL score wins the game
 - score to win can change from 100 pionts 
 
+Demo (http://evetakechi.github.io/simple-react-piggame)
